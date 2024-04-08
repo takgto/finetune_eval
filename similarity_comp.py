@@ -35,7 +35,7 @@ def comp_vector(ft, annot):
     return cos_ft_ann
 
 def similarity_comp(
-    out_dir: Path = Path("/home/t_goto/lit-gpt/out/comparison/meadow_dq"),
+    out_dir: Path = Path("/home/t_goto/lit-gpt/out/comparison/meadow"),
     save_result: bool = False,
     threshold: float = 0.9,
     debug_flag: bool = False,

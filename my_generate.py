@@ -181,8 +181,8 @@ def setup(
     seed: int = 1337,
     max_new_tokens: int = 20,
     llama2_dir: Path = Path("/data2/goto_data/lit-gpt/checkpoints/meta-llama/Llama-2-7b-chat-hf"),
-    meadow_ckpt_dir: Path = Path("/home/t_goto/lit-gpt/out/lora_merged/meadow_q"),
-    out_dir: Path = Path("/home/t_goto/lit-gpt/out/comparison/meadow_q"),
+    meadow_ckpt_dir: Path = Path("/home/t_goto/lit-gpt/out/lora_merged/meadow"),
+    out_dir: Path = Path("/home/t_goto/lit-gpt/out/comparison/meadow"),
     data_dir: Path = Path("/home/t_goto/lit-gpt/data/medical-meadow"),
 ) -> None:
     # didplay parameters
